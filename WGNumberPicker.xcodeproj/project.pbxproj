@@ -14,6 +14,12 @@
 		325DC9281BD4DD8500CF5004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 325DC9271BD4DD8500CF5004 /* Assets.xcassets */; };
 		325DC92B1BD4DD8500CF5004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325DC9291BD4DD8500CF5004 /* LaunchScreen.storyboard */; };
 		325DC9361BD4DD8500CF5004 /* WGNumberPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 325DC9351BD4DD8500CF5004 /* WGNumberPickerUITests.m */; };
+		325DC9481BD4DDA700CF5004 /* minus_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 325DC9421BD4DDA700CF5004 /* minus_icon@2x.png */; settings = {ASSET_TAGS = (); }; };
+		325DC9491BD4DDA700CF5004 /* minus_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 325DC9431BD4DDA700CF5004 /* minus_icon@3x.png */; settings = {ASSET_TAGS = (); }; };
+		325DC94A1BD4DDA700CF5004 /* plus_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 325DC9441BD4DDA700CF5004 /* plus_icon@2x.png */; settings = {ASSET_TAGS = (); }; };
+		325DC94B1BD4DDA700CF5004 /* plus_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 325DC9451BD4DDA700CF5004 /* plus_icon@3x.png */; settings = {ASSET_TAGS = (); }; };
+		325DC94C1BD4DDA700CF5004 /* ZBJNumberPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 325DC9471BD4DDA700CF5004 /* ZBJNumberPicker.m */; settings = {ASSET_TAGS = (); }; };
+		325DC94F1BD4FE1500CF5004 /* ZBJSelectNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 325DC94E1BD4FE1500CF5004 /* ZBJSelectNumberViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,14 @@
 		325DC9311BD4DD8500CF5004 /* WGNumberPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGNumberPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		325DC9351BD4DD8500CF5004 /* WGNumberPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGNumberPickerUITests.m; sourceTree = "<group>"; };
 		325DC9371BD4DD8500CF5004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		325DC9421BD4DDA700CF5004 /* minus_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minus_icon@2x.png"; sourceTree = "<group>"; };
+		325DC9431BD4DDA700CF5004 /* minus_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minus_icon@3x.png"; sourceTree = "<group>"; };
+		325DC9441BD4DDA700CF5004 /* plus_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus_icon@2x.png"; sourceTree = "<group>"; };
+		325DC9451BD4DDA700CF5004 /* plus_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus_icon@3x.png"; sourceTree = "<group>"; };
+		325DC9461BD4DDA700CF5004 /* ZBJNumberPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBJNumberPicker.h; sourceTree = "<group>"; };
+		325DC9471BD4DDA700CF5004 /* ZBJNumberPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBJNumberPicker.m; sourceTree = "<group>"; };
+		325DC94D1BD4FE1500CF5004 /* ZBJSelectNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBJSelectNumberViewController.h; sourceTree = "<group>"; };
+		325DC94E1BD4FE1500CF5004 /* ZBJSelectNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBJSelectNumberViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,7 @@
 		325DC91A1BD4DD8500CF5004 /* WGNumberPicker */ = {
 			isa = PBXGroup;
 			children = (
+				325DC9401BD4DDA700CF5004 /* NumberPicker */,
 				325DC91E1BD4DD8500CF5004 /* AppDelegate.h */,
 				325DC91F1BD4DD8500CF5004 /* AppDelegate.m */,
 				325DC9211BD4DD8500CF5004 /* ViewController.h */,
@@ -109,6 +124,29 @@
 				325DC9371BD4DD8500CF5004 /* Info.plist */,
 			);
 			path = WGNumberPickerUITests;
+			sourceTree = "<group>";
+		};
+		325DC9401BD4DDA700CF5004 /* NumberPicker */ = {
+			isa = PBXGroup;
+			children = (
+				325DC9411BD4DDA700CF5004 /* resources */,
+				325DC9461BD4DDA700CF5004 /* ZBJNumberPicker.h */,
+				325DC9471BD4DDA700CF5004 /* ZBJNumberPicker.m */,
+				325DC94D1BD4FE1500CF5004 /* ZBJSelectNumberViewController.h */,
+				325DC94E1BD4FE1500CF5004 /* ZBJSelectNumberViewController.m */,
+			);
+			path = NumberPicker;
+			sourceTree = "<group>";
+		};
+		325DC9411BD4DDA700CF5004 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				325DC9421BD4DDA700CF5004 /* minus_icon@2x.png */,
+				325DC9431BD4DDA700CF5004 /* minus_icon@3x.png */,
+				325DC9441BD4DDA700CF5004 /* plus_icon@2x.png */,
+				325DC9451BD4DDA700CF5004 /* plus_icon@3x.png */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +231,11 @@
 			files = (
 				325DC92B1BD4DD8500CF5004 /* LaunchScreen.storyboard in Resources */,
 				325DC9281BD4DD8500CF5004 /* Assets.xcassets in Resources */,
+				325DC9481BD4DDA700CF5004 /* minus_icon@2x.png in Resources */,
+				325DC94A1BD4DDA700CF5004 /* plus_icon@2x.png in Resources */,
 				325DC9261BD4DD8500CF5004 /* Main.storyboard in Resources */,
+				325DC94B1BD4DDA700CF5004 /* plus_icon@3x.png in Resources */,
+				325DC9491BD4DDA700CF5004 /* minus_icon@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +254,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				325DC9231BD4DD8500CF5004 /* ViewController.m in Sources */,
+				325DC94C1BD4DDA700CF5004 /* ZBJNumberPicker.m in Sources */,
 				325DC9201BD4DD8500CF5004 /* AppDelegate.m in Sources */,
+				325DC94F1BD4FE1500CF5004 /* ZBJSelectNumberViewController.m in Sources */,
 				325DC91D1BD4DD8500CF5004 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
