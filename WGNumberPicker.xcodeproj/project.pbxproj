@@ -19,7 +19,7 @@
 		325DC94A1BD4DDA700CF5004 /* plus_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 325DC9441BD4DDA700CF5004 /* plus_icon@2x.png */; settings = {ASSET_TAGS = (); }; };
 		325DC94B1BD4DDA700CF5004 /* plus_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 325DC9451BD4DDA700CF5004 /* plus_icon@3x.png */; settings = {ASSET_TAGS = (); }; };
 		325DC94C1BD4DDA700CF5004 /* ZBJNumberPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 325DC9471BD4DDA700CF5004 /* ZBJNumberPicker.m */; settings = {ASSET_TAGS = (); }; };
-		325DC94F1BD4FE1500CF5004 /* ZBJSelectNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 325DC94E1BD4FE1500CF5004 /* ZBJSelectNumberViewController.m */; settings = {ASSET_TAGS = (); }; };
+		325DC9521BD5158400CF5004 /* ZBJSelectNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 325DC9511BD5158400CF5004 /* ZBJSelectNumberViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		325DC9451BD4DDA700CF5004 /* plus_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus_icon@3x.png"; sourceTree = "<group>"; };
 		325DC9461BD4DDA700CF5004 /* ZBJNumberPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBJNumberPicker.h; sourceTree = "<group>"; };
 		325DC9471BD4DDA700CF5004 /* ZBJNumberPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBJNumberPicker.m; sourceTree = "<group>"; };
-		325DC94D1BD4FE1500CF5004 /* ZBJSelectNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBJSelectNumberViewController.h; sourceTree = "<group>"; };
-		325DC94E1BD4FE1500CF5004 /* ZBJSelectNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBJSelectNumberViewController.m; sourceTree = "<group>"; };
+		325DC9501BD5158400CF5004 /* ZBJSelectNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBJSelectNumberViewController.h; sourceTree = "<group>"; };
+		325DC9511BD5158400CF5004 /* ZBJSelectNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBJSelectNumberViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				325DC9401BD4DDA700CF5004 /* NumberPicker */,
+				325DC9501BD5158400CF5004 /* ZBJSelectNumberViewController.h */,
+				325DC9511BD5158400CF5004 /* ZBJSelectNumberViewController.m */,
 				325DC91E1BD4DD8500CF5004 /* AppDelegate.h */,
 				325DC91F1BD4DD8500CF5004 /* AppDelegate.m */,
 				325DC9211BD4DD8500CF5004 /* ViewController.h */,
@@ -132,8 +134,6 @@
 				325DC9411BD4DDA700CF5004 /* resources */,
 				325DC9461BD4DDA700CF5004 /* ZBJNumberPicker.h */,
 				325DC9471BD4DDA700CF5004 /* ZBJNumberPicker.m */,
-				325DC94D1BD4FE1500CF5004 /* ZBJSelectNumberViewController.h */,
-				325DC94E1BD4FE1500CF5004 /* ZBJSelectNumberViewController.m */,
 			);
 			path = NumberPicker;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 				325DC9231BD4DD8500CF5004 /* ViewController.m in Sources */,
 				325DC94C1BD4DDA700CF5004 /* ZBJNumberPicker.m in Sources */,
 				325DC9201BD4DD8500CF5004 /* AppDelegate.m in Sources */,
-				325DC94F1BD4FE1500CF5004 /* ZBJSelectNumberViewController.m in Sources */,
+				325DC9521BD5158400CF5004 /* ZBJSelectNumberViewController.m in Sources */,
 				325DC91D1BD4DD8500CF5004 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +446,7 @@
 				325DC93C1BD4DD8500CF5004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		325DC93D1BD4DD8500CF5004 /* Build configuration list for PBXNativeTarget "WGNumberPickerUITests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +455,7 @@
 				325DC93F1BD4DD8500CF5004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
